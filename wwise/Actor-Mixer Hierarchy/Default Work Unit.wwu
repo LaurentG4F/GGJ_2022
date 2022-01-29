@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Hit_1" ID="{9A6DEB1E-D914-45F9-9C7C-7A3E00215158}" ShortID="737133653">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C2A77F83-2650-4D77-9EA5-CA5DA3F64E26}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B65E328-C4E4-4C17-94A2-D04E107CE48B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hit_1" ID="{CBB20DFF-53A6-4EF1-A29F-28DEFC817F47}">
+							<Language>SFX</Language>
+							<AudioFile>Hit_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="292469224"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Hit_1" ID="{CBB20DFF-53A6-4EF1-A29F-28DEFC817F47}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

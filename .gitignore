@@ -83,12 +83,19 @@ IncrementalSoundBankData.xml
 
 
 # Wwise
-WWiseProject/.cache/
-WWiseProject/*.prof
-WwiseProject/*_WwiseProject.*.validationcache
-WwiseProject/*_WwiseProject.*.wsettings
-WwiseProject/**/*.akd
+wwise/.cache/
+wwise/*.prof
+wwise/*_WwiseProject.*.validationcache
+wwise/*_WwiseProject.*.wsettings
+wwise/**/*.akd
 Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
+
+#WWise gitignore
+.cache/
+*.akd
+*.validationcache
+[Aa]ssets/WwiseSettings.xml
+[Aa]ssets/WwiseSettings.xml.meta
 
 
 # Rider

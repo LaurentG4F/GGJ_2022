@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\barie\\Desktop\\GlobalGamJam_2022\\wwise\\",
+   "SourceFilesRoot": "C:\\Users\\barie\\Desktop\\GlobalGamJam_2022\\wwise\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\barie\\Desktop\\GlobalGamJam_2022\\Assets\\StreamingAssets\\Audio\\GeneratedSoundbank\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\barie\\Desktop\\GlobalGamJam_2022\\wwise\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "2754342975",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

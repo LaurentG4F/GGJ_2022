@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\barie\Desktop\GlobalGamJam_2022\Assets\StreamingAssets\Audio\GeneratedSoundbank\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" GUID="{4552C77B-6D3F-4281-B495-A0E595F54E28}" Language="SFX" Hash="2700194974">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1915892769" Name="Play_Event_Test" ObjectPath="\Events\Default Work Unit\Play_Event_Test" GUID="{7B51B1D3-4727-4A4B-B4DE-2316A1E18166}" DurationType="OneShot" DurationMin="5.333333" DurationMax="5.333333">
+					<IncludedMemoryFiles>
+						<File Id="292469224" Language="SFX">
+							<ShortName>Hit_1.wav</ShortName>
+							<Path>SFX\Hit_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

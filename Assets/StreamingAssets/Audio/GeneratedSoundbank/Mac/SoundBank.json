@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\barie\\Desktop\\GlobalGamJam_2022\\wwise\\",
+   "SourceFilesRoot": "C:\\Users\\barie\\Desktop\\GlobalGamJam_2022\\wwise\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\barie\\Desktop\\GlobalGamJam_2022\\Assets\\StreamingAssets\\Audio\\GeneratedSoundbank\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\barie\\Desktop\\GlobalGamJam_2022\\wwise\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1661994096",
+    "GUID": "{4552C77B-6D3F-4281-B495-A0E595F54E28}",
+    "Language": "SFX",
+    "Hash": "2700194974",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
+    "ShortName": "SoundBank",
+    "Path": "SoundBank.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1915892769",
+      "Name": "Play_Event_Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Event_Test",
+      "GUID": "{7B51B1D3-4727-4A4B-B4DE-2316A1E18166}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.333333",
+      "DurationMax": "5.333333",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "292469224",
+        "Language": "SFX",
+        "ShortName": "Hit_1.wav",
+        "Path": "SFX\\Hit_1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
