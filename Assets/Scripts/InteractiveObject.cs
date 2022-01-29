@@ -9,6 +9,7 @@ public class InteractiveObject : MonoBehaviour
     public EventManager eventManager;
     public String prompt;
     public UnityEvent scriptToExecute;
+    public bool disableAfterUse = true;
 
     public void Test()
     {

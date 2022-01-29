@@ -42,22 +42,24 @@ public class FPSMovement : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.None;
         }
-    }
-
-    void FixedUpdate()
-    {
+        
         {
             RaycastHit infos;
-            bool touchedObject = Physics.SphereCast(cam.position, 0.05f, cam.forward, out infos, 5f);
+            bool touchedObject = Physics.SphereCast(cam.position, 0.05f, cam.forward, out infos, 5f, ~LayerMask.NameToLayer("Interactive"));
             if (touchedObject)
             {
                 var interactiveObject = infos.collider.GetComponent<InteractiveObject>();
-                if (interactiveObject)
+                if (interactiveObject && interactiveObject.enabled)
                 {
                     eventManager.bottomText.text = interactiveObject.prompt;
-                    if (Input.GetButtonDown("Use"))
+                    if (Input.GetButton("Use"))
                     {
                         interactiveObject.scriptToExecute.Invoke();
+                        if (interactiveObject.disableAfterUse)
+                        {
+                            interactiveObject.enabled = false;
+                            //interactiveObject.gameObject.SetActive(false);
+                        }
                     }
                 }
                 else
@@ -70,6 +72,11 @@ public class FPSMovement : MonoBehaviour
                 eventManager.bottomText.text = "";
             }
         }
+    }
+
+    void FixedUpdate()
+    {
+        
         
         {
             RaycastHit infos;
