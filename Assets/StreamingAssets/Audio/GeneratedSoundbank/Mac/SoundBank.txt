@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1915892769	Play_Event_Test			\Default Work Unit\Play_Event_Test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	292469224	Hit_1	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Hit_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hit_1		940944
+
