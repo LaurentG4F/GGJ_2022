@@ -28,11 +28,140 @@
     "Id": "1661994096",
     "GUID": "{4552C77B-6D3F-4281-B495-A0E595F54E28}",
     "Language": "SFX",
-    "Hash": "4157018496",
+    "Hash": "1330716657",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
     "ShortName": "SoundBank",
     "Path": "SoundBank.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3174479978",
+      "Name": "Play_Ambiance",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb\\Play_Ambiance",
+      "GUID": "{30ECF5A5-5764-482B-8E21-ABC09C504B8B}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "12812071",
+        "Language": "SFX",
+        "ShortName": "Stingers_Wind_03.wav",
+        "Path": "SFX\\Stingers_Wind_03_10C4C929.wem"
+       },
+       {
+        "Id": "56403043",
+        "Language": "SFX",
+        "ShortName": "Stingers_Wind_01.wav",
+        "Path": "SFX\\Stingers_Wind_01_10C4C929.wem"
+       },
+       {
+        "Id": "81608352",
+        "Language": "SFX",
+        "ShortName": "Stingers_Birds_02.wav",
+        "Path": "SFX\\Stingers_Birds_02_10C4C929.wem"
+       },
+       {
+        "Id": "158567858",
+        "Language": "SFX",
+        "ShortName": "Stingers_Wind_06.wav",
+        "Path": "SFX\\Stingers_Wind_06_10C4C929.wem"
+       },
+       {
+        "Id": "275382921",
+        "Language": "SFX",
+        "ShortName": "Amb_Forest_Far.wav",
+        "Path": "SFX\\Amb_Forest_Far_10C4C929.wem"
+       },
+       {
+        "Id": "382326739",
+        "Language": "SFX",
+        "ShortName": "Stingers_Birds_07.wav",
+        "Path": "SFX\\Stingers_Birds_07_10C4C929.wem"
+       },
+       {
+        "Id": "395442203",
+        "Language": "SFX",
+        "ShortName": "Stingers_Wind_08.wav",
+        "Path": "SFX\\Stingers_Wind_08_10C4C929.wem"
+       },
+       {
+        "Id": "409681331",
+        "Language": "SFX",
+        "ShortName": "Stingers_Wind_02.wav",
+        "Path": "SFX\\Stingers_Wind_02_10C4C929.wem"
+       },
+       {
+        "Id": "498990650",
+        "Language": "SFX",
+        "ShortName": "Stingers_Birds_03.wav",
+        "Path": "SFX\\Stingers_Birds_03_10C4C929.wem"
+       },
+       {
+        "Id": "513359509",
+        "Language": "SFX",
+        "ShortName": "Amb_Forest_Med.wav",
+        "Path": "SFX\\Amb_Forest_Med_10C4C929.wem"
+       },
+       {
+        "Id": "540061784",
+        "Language": "SFX",
+        "ShortName": "Wind_Close.wav",
+        "Path": "SFX\\Wind_Close_10C4C929.wem"
+       },
+       {
+        "Id": "631855410",
+        "Language": "SFX",
+        "ShortName": "Stingers_Wind_07.wav",
+        "Path": "SFX\\Stingers_Wind_07_10C4C929.wem"
+       },
+       {
+        "Id": "649274967",
+        "Language": "SFX",
+        "ShortName": "Stingers_Wind_04.wav",
+        "Path": "SFX\\Stingers_Wind_04_10C4C929.wem"
+       },
+       {
+        "Id": "681303219",
+        "Language": "SFX",
+        "ShortName": "Wind_Med.wav",
+        "Path": "SFX\\Wind_Med_10C4C929.wem"
+       },
+       {
+        "Id": "695319008",
+        "Language": "SFX",
+        "ShortName": "Wind_Far.wav",
+        "Path": "SFX\\Wind_Far_10C4C929.wem"
+       },
+       {
+        "Id": "735591099",
+        "Language": "SFX",
+        "ShortName": "Stingers_Wind_05.wav",
+        "Path": "SFX\\Stingers_Wind_05_10C4C929.wem"
+       },
+       {
+        "Id": "1002040095",
+        "Language": "SFX",
+        "ShortName": "Stingers_Birds_04.wav",
+        "Path": "SFX\\Stingers_Birds_04_10C4C929.wem"
+       },
+       {
+        "Id": "1004394601",
+        "Language": "SFX",
+        "ShortName": "Stingers_Birds_01.wav",
+        "Path": "SFX\\Stingers_Birds_01_10C4C929.wem"
+       },
+       {
+        "Id": "1049157014",
+        "Language": "SFX",
+        "ShortName": "Stingers_Birds_06.wav",
+        "Path": "SFX\\Stingers_Birds_06_10C4C929.wem"
+       },
+       {
+        "Id": "1065874852",
+        "Language": "SFX",
+        "ShortName": "Stingers_Birds_05.wav",
+        "Path": "SFX\\Stingers_Birds_05_10C4C929.wem"
+       }
+      ]
+     },
      {
       "Id": "1915892769",
       "Name": "Play_Event_Test",
@@ -142,6 +271,196 @@
         "Path": "SFX\\Stinger_01_D79FB2B7.wem"
        }
       ]
+     },
+     {
+      "Id": "770128916",
+      "Name": "Play_Pause_All",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pause_All",
+      "GUID": "{0786673E-2B6E-4031-A144-20ED7D28B4B8}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2633259259",
+      "Name": "Play_Resume_All",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Resume_All",
+      "GUID": "{27235EE9-F90A-4F69-B567-23B82A39BC81}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "4220603474",
+      "Name": "Play_SFX_Cursed_Vibes",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_SFX_Cursed_Vibes",
+      "GUID": "{970F91E2-D229-4866-A921-41A78BD32F2C}",
+      "DurationType": "OneShot",
+      "DurationMin": "73.",
+      "DurationMax": "73.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "533274472",
+        "Language": "SFX",
+        "ShortName": "SFX_Cursed_Vibes.wav",
+        "Path": "SFX\\SFX_Cursed_Vibes_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3184990085",
+      "Name": "Play_SFX_Fire_Level_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Fire\\Play_SFX_Fire_Level_01",
+      "GUID": "{78D59B1C-EA8A-4AAB-A5F0-F9740F203469}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "764892064",
+        "Language": "SFX",
+        "ShortName": "SFX_Fire_Level_01.wav",
+        "Path": "SFX\\SFX_Fire_Level_01_8BCBC46B.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3184990086",
+      "Name": "Play_SFX_Fire_Level_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Fire\\Play_SFX_Fire_Level_02",
+      "GUID": "{8A447414-2C47-4E8B-955C-6EFC97F7C6ED}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "66188714",
+        "Language": "SFX",
+        "ShortName": "SFX_Fire_Level_02.wav",
+        "Path": "SFX\\SFX_Fire_Level_02_D4391FD7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3184990087",
+      "Name": "Play_SFX_Fire_Level_03",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Fire\\Play_SFX_Fire_Level_03",
+      "GUID": "{409D221F-A8C6-4268-86C5-4077F127793E}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "78937757",
+        "Language": "SFX",
+        "ShortName": "SFX_Fire_Level_03.wav",
+        "Path": "SFX\\SFX_Fire_Level_03_F9E884A7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3184990080",
+      "Name": "Play_SFX_Fire_Level_04",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Fire\\Play_SFX_Fire_Level_04",
+      "GUID": "{94DCCF71-69EA-40D3-AB5E-F53AAA1BD6ED}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "970967826",
+        "Language": "SFX",
+        "ShortName": "SFX_Fire_Level_04.wav",
+        "Path": "SFX\\SFX_Fire_Level_04_663A8A7C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3761904413",
+      "Name": "Play_SFX_Fire_Mystic_Low_Bed",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Fire\\Play_SFX_Fire_Mystic_Low_Bed",
+      "GUID": "{6CE3C20A-C518-4F87-BF39-29370E0719D0}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "650784925",
+        "Language": "SFX",
+        "ShortName": "SFX_Fire_Mystic_Low_Bed.wav",
+        "Path": "SFX\\SFX_Fire_Mystic_Low_Bed_00172B53.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3600031324",
+      "Name": "Play_SFX_Fire_Transition",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Fire\\Play_SFX_Fire_Transition",
+      "GUID": "{564D37B0-D020-4A9C-8F5B-9D8DE6503FD4}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.406708",
+      "DurationMax": "3.406708",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "725234453",
+        "Language": "SFX",
+        "ShortName": "SFX_Fire_Transition.wav",
+        "Path": "SFX\\SFX_Fire_Transition_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "137879735",
+      "Name": "Play_SFX_TocToc_Binaural_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_SFX_TocToc_Binaural_01",
+      "GUID": "{4BDF5CCD-7F7F-47B9-AD8C-74284FACD7D9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.393812",
+      "DurationMax": "2.393812",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "441708959",
+        "Language": "SFX",
+        "ShortName": "SFX_TocToc_Binaural_01.wav",
+        "Path": "SFX\\SFX_TocToc_Binaural_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "137879732",
+      "Name": "Play_SFX_TocToc_Binaural_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_SFX_TocToc_Binaural_02",
+      "GUID": "{7DC36E31-D49C-4EA0-B95D-166F8ABC9D77}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.799979",
+      "DurationMax": "2.799979",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "83885994",
+        "Language": "SFX",
+        "ShortName": "SFX_TocToc_Binaural_02.wav",
+        "Path": "SFX\\SFX_TocToc_Binaural_02_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "137879733",
+      "Name": "Play_SFX_TocToc_Binaural_03",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_SFX_TocToc_Binaural_03",
+      "GUID": "{042A131C-97C1-4828-A34C-63E22E748369}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.18025",
+      "DurationMax": "3.18025",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "67177573",
+        "Language": "SFX",
+        "ShortName": "SFX_TocToc_Binaural_03.wav",
+        "Path": "SFX\\SFX_TocToc_Binaural_03_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2839405212",
+      "Name": "Stop_Ambiance",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb\\Stop_Ambiance",
+      "GUID": "{9C4E7036-FA73-42A2-B068-D525A44ECBF7}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3526698682",

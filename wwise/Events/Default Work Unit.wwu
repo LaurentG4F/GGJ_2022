@@ -50,6 +50,226 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Amb" ID="{99510263-9E82-4638-A234-9800824A8921}" ShortID="677430080">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Ambiance" ID="{30ECF5A5-5764-482B-8E21-ABC09C504B8B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{DC20C3E9-9E8D-4B88-B21C-167691F8B718}" ShortID="377304962">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forest" ID="{F38F8CA6-2287-4950-943F-3F93F2DD5DEF}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{01BFA704-76B7-4C23-BFF3-BEB6122DCBA9}" ShortID="692049468">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind" ID="{742DE7E9-6017-4B13-9224-2CE6AFD624BD}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{247DE659-8E4B-462F-8D0F-3E1521E639F4}" ShortID="685345090">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Birds" ID="{0B5C2917-CA81-47C1-A43D-C1F3E6F5BDCC}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{19B0002E-1589-4911-9A05-F3EE7816C3AA}" ShortID="516392594">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind" ID="{92A81DB9-1849-48C6-96C8-336A3B23DF52}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Ambiance" ID="{9C4E7036-FA73-42A2-B068-D525A44ECBF7}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{1F43EFE5-6617-45A1-80D9-8866F6516227}" ShortID="362174380">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb" ID="{48DAB543-753E-46D0-B4AF-36BA787BF96B}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{F24D00A0-04CA-4331-8ABE-111E0C741C13}" ShortID="1014296468">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_SFX_Cursed_Vibes" ID="{970F91E2-D229-4866-A921-41A78BD32F2C}">
+							<ChildrenList>
+								<Action Name="" ID="{D74AF158-C029-4EDB-9DAC-B1FCD7525F0E}" ShortID="878860452">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Cursed_Vibes" ID="{8A83DECD-DA32-4E0B-8D0B-729618AB7BF1}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Fire" ID="{6E92D1D4-65E4-4510-B6FD-DC5F1B5EC421}" ShortID="867243521">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_SFX_Fire_Level_01" ID="{78D59B1C-EA8A-4AAB-A5F0-F9740F203469}">
+									<ChildrenList>
+										<Action Name="" ID="{738EA22F-3F05-4E25-B603-59BEE0185E0C}" ShortID="307897696">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Fire_Level_01" ID="{C0737F82-4C89-47DB-BA1A-63C4928D53A8}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_Fire_Level_02" ID="{8A447414-2C47-4E8B-955C-6EFC97F7C6ED}">
+									<ChildrenList>
+										<Action Name="" ID="{939E52E4-9BD7-4FD2-BD91-C222D5D56EAC}" ShortID="613100302">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Fire_Level_02" ID="{E9573AF8-C705-410C-BDAB-3AD20D32DD82}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_Fire_Level_03" ID="{409D221F-A8C6-4268-86C5-4077F127793E}">
+									<ChildrenList>
+										<Action Name="" ID="{6A0B8334-4D39-495B-B276-2976BDE6DB84}" ShortID="72029983">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Fire_Level_03" ID="{CABF5EFF-AEDE-4C17-958E-1294F4DD3AE1}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_Fire_Mystic_Low_Bed" ID="{6CE3C20A-C518-4F87-BF39-29370E0719D0}">
+									<ChildrenList>
+										<Action Name="" ID="{AA082EEF-CB2D-4500-ABAB-8D76DC9F2EA3}" ShortID="501068363">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Fire_Mystic_Low_Bed" ID="{939987B9-5F75-4049-B35C-E3181086EA0B}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_Fire_Level_04" ID="{94DCCF71-69EA-40D3-AB5E-F53AAA1BD6ED}">
+									<ChildrenList>
+										<Action Name="" ID="{6505DA8C-1AD1-4B51-9F75-C35AF065B6CF}" ShortID="255173054">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Fire_Level_04" ID="{4D900DE8-C801-4CB6-B7D0-9119408EB759}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_Fire_Transition" ID="{564D37B0-D020-4A9C-8F5B-9D8DE6503FD4}">
+									<ChildrenList>
+										<Action Name="" ID="{BBE31DA1-A949-4470-89D9-84AA63FD848F}" ShortID="213277685">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Fire_Transition" ID="{58D36ED4-C6E8-4BE2-B7A0-CE283536F4FA}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_SFX_TocToc_Binaural_03" ID="{042A131C-97C1-4828-A34C-63E22E748369}">
+							<ChildrenList>
+								<Action Name="" ID="{D2CF4CAE-08D7-476E-86EC-4B3F8D44218D}" ShortID="225090160">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_TocToc_Binaural_03" ID="{3D95DEA3-3471-45BA-A14B-5439BD6A210A}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_TocToc_Binaural_02" ID="{7DC36E31-D49C-4EA0-B95D-166F8ABC9D77}">
+							<ChildrenList>
+								<Action Name="" ID="{2D1655CA-6962-46F2-A27F-82D1D120C466}" ShortID="932808423">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_TocToc_Binaural_02" ID="{50B20F23-2840-4228-BF57-DB15AF8E65BD}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_TocToc_Binaural_01" ID="{4BDF5CCD-7F7F-47B9-AD8C-74284FACD7D9}">
+							<ChildrenList>
+								<Action Name="" ID="{2C2B85C1-0793-4AF9-B8FC-338ADD1FC37E}" ShortID="810685884">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_TocToc_Binaural_01" ID="{9EC5C779-8618-450B-9401-5F558CCBF3B1}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Pause_All" ID="{0786673E-2B6E-4031-A144-20ED7D28B4B8}">
+					<ChildrenList>
+						<Action Name="" ID="{D4634AF9-C5E2-4B18-8D47-FA2A71B4518C}" ShortID="254936806">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Resume_All" ID="{27235EE9-F90A-4F69-B567-23B82A39BC81}">
+					<ChildrenList>
+						<Action Name="" ID="{AE91E508-8532-4180-B095-3E7D8017C8B1}" ShortID="1033536798">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
