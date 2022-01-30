@@ -133,8 +133,9 @@ GameObject:
   m_Component:
   - component: {fileID: 143443432}
   - component: {fileID: 143443431}
-  - component: {fileID: 143443430}
   - component: {fileID: 143443429}
+  - component: {fileID: 143443430}
+  - component: {fileID: 143443433}
   m_Layer: 0
   m_Name: Knock
   m_TagString: Untagged
@@ -231,6 +232,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &143443433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143443428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c1c2fc46fc74742b42620ce89f6621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 83800a31df27b934eb61f4f47cc2430c, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &147937930
 GameObject:
   m_ObjectHideFlags: 0
