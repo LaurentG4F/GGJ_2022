@@ -11,6 +11,7 @@ public class EventManager : MonoBehaviour
     public TextMeshProUGUI bottomText;
 
     public float loadNextSceneDelayInSeconds = 1f;
+    public GameObject fire;
 
     public void TakeWater(GameObject fireInteractionToActivate)
     {
@@ -29,6 +30,7 @@ public class EventManager : MonoBehaviour
     
     public void ExtinguishFire(string scenePath)
     {
+        fire.SetActive(false);
         StartCoroutine(LoadNextScene(scenePath, loadNextSceneDelayInSeconds));
     }
 
