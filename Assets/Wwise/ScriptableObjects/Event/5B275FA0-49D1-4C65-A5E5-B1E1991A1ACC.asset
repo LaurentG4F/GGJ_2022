@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ca886a75888244d9980f03768dae5b, type: 3}
+  m_Name: 5B275FA0-49D1-4C65-A5E5-B1E1991A1ACC
+  m_EditorClassIdentifier: 
+  objectName: Play_SFX_TocToc_Stop
+  id: 2424815957
+  guid: 5B275FA0-49D1-4C65-A5E5-B1E1991A1ACC
