@@ -28,7 +28,7 @@
     "Id": "1661994096",
     "GUID": "{4552C77B-6D3F-4281-B495-A0E595F54E28}",
     "Language": "SFX",
-    "Hash": "2700194974",
+    "Hash": "4157018496",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
     "ShortName": "SoundBank",
     "Path": "SoundBank.bnk",
@@ -49,6 +49,109 @@
         "Path": "SFX\\Hit_1_10C4C929.wem"
        }
       ]
+     },
+     {
+      "Id": "1305709588",
+      "Name": "Play_Musique_Intro",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Musique_Intro",
+      "GUID": "{735776C7-EA69-4428-ACF2-D2695375E258}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "10342414",
+        "Language": "SFX",
+        "ShortName": "Pad_Ambiant_Chord_02.wav",
+        "Path": "SFX\\Pad_Ambiant_Chord_02_D79FB2B7.wem"
+       },
+       {
+        "Id": "67232658",
+        "Language": "SFX",
+        "ShortName": "LFO_Back_Chords_Progression.wav",
+        "Path": "SFX\\LFO_Back_Chords_Progression_D79FB2B7.wem"
+       },
+       {
+        "Id": "70625999",
+        "Language": "SFX",
+        "ShortName": "Pad_Ambiant_Chord_03.wav",
+        "Path": "SFX\\Pad_Ambiant_Chord_03_D79FB2B7.wem"
+       },
+       {
+        "Id": "139421472",
+        "Language": "SFX",
+        "ShortName": "Pad_Ambiant_Chord_05.wav",
+        "Path": "SFX\\Pad_Ambiant_Chord_05_D79FB2B7.wem"
+       },
+       {
+        "Id": "254895219",
+        "Language": "SFX",
+        "ShortName": "LFO_Back_Chord_05.wav",
+        "Path": "SFX\\LFO_Back_Chord_05_D79FB2B7.wem"
+       },
+       {
+        "Id": "336419706",
+        "Language": "SFX",
+        "ShortName": "LFO_Back_Chord_04.wav",
+        "Path": "SFX\\LFO_Back_Chord_04_D79FB2B7.wem"
+       },
+       {
+        "Id": "368248110",
+        "Language": "SFX",
+        "ShortName": "Pad_Ambiant_Chord_04.wav",
+        "Path": "SFX\\Pad_Ambiant_Chord_04_D79FB2B7.wem"
+       },
+       {
+        "Id": "571726579",
+        "Language": "SFX",
+        "ShortName": "Pad_Intro_Open.wav",
+        "Path": "SFX\\Pad_Intro_Open_D79FB2B7.wem"
+       },
+       {
+        "Id": "692291854",
+        "Language": "SFX",
+        "ShortName": "LFO_Back_Chord_02.wav",
+        "Path": "SFX\\LFO_Back_Chord_02_D79FB2B7.wem"
+       },
+       {
+        "Id": "812210440",
+        "Language": "SFX",
+        "ShortName": "LFO_Back_Chord_01.wav",
+        "Path": "SFX\\LFO_Back_Chord_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "819713136",
+        "Language": "SFX",
+        "ShortName": "Pad_Ambiant.wav",
+        "Path": "SFX\\Pad_Ambiant_D79FB2B7.wem"
+       },
+       {
+        "Id": "826101791",
+        "Language": "SFX",
+        "ShortName": "Pad_Ambiant_Chord_01.wav",
+        "Path": "SFX\\Pad_Ambiant_Chord_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "907791100",
+        "Language": "SFX",
+        "ShortName": "LFO_Back_Chord_03.wav",
+        "Path": "SFX\\LFO_Back_Chord_03_D79FB2B7.wem"
+       },
+       {
+        "Id": "1067995099",
+        "Language": "SFX",
+        "ShortName": "Stinger_01.wav",
+        "Path": "SFX\\Stinger_01_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3526698682",
+      "Name": "Stop_Musique_Intro",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Musique_Intro",
+      "GUID": "{9F90A109-48B1-49C0-8E11-6FA33B43D1A6}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ]
    }

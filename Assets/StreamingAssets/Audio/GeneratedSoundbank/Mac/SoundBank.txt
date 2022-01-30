@@ -1,6 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1305709588	Play_Musique_Intro			\Default Work Unit\Music\Play_Musique_Intro	
 	1915892769	Play_Event_Test			\Default Work Unit\Play_Event_Test	
+	3526698682	Stop_Musique_Intro			\Default Work Unit\Music\Stop_Musique_Intro	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10342414	Pad_Ambiant_Chord_02	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Pad_Ambiant_Chord_02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_02\Pad_Ambiant_Chord_02		2508180
+	67232658	LFO_Back_Chords_Progression	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\LFO_Back_Chords_Progression_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Part_I\LFO_Back_Chords_Progression		4346944
+	70625999	Pad_Ambiant_Chord_03	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Pad_Ambiant_Chord_03_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_03\Pad_Ambiant_Chord_03		2502036
+	139421472	Pad_Ambiant_Chord_05	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Pad_Ambiant_Chord_05_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_05\Pad_Ambiant_Chord_05		2215388
+	254895219	LFO_Back_Chord_05	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\LFO_Back_Chord_05_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_05\LFO_Back_Chord_05		2652224
 	292469224	Hit_1	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Hit_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hit_1		940944
+	336419706	LFO_Back_Chord_04	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\LFO_Back_Chord_04_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_04\LFO_Back_Chord_04		3168064
+	368248110	Pad_Ambiant_Chord_04	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Pad_Ambiant_Chord_04_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_04\Pad_Ambiant_Chord_04		2398356
+	571726579	Pad_Intro_Open	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Pad_Intro_Open_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Intro\Pad_Intro_Open		3840064
+	692291854	LFO_Back_Chord_02	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\LFO_Back_Chord_02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_02\LFO_Back_Chord_02		2976064
+	812210440	LFO_Back_Chord_01	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\LFO_Back_Chord_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_01\LFO_Back_Chord_01		2880064
+	819713136	Pad_Ambiant	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Pad_Ambiant_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Part_I\Pad_Ambiant		5760064
+	826101791	Pad_Ambiant_Chord_01	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Pad_Ambiant_Chord_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_01\Pad_Ambiant_Chord_01		2304064
+	907791100	LFO_Back_Chord_03	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\LFO_Back_Chord_03_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Generative_03\LFO_Back_Chord_03		2880064
+	1067995099	Stinger_01	C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\.cache\Mac\SFX\Stinger_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_Intro\Part_I\Stinger_01		1440064
 
