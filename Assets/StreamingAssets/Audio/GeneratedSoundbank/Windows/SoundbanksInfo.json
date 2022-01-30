@@ -28,7 +28,7 @@
     "Id": "1661994096",
     "GUID": "{4552C77B-6D3F-4281-B495-A0E595F54E28}",
     "Language": "SFX",
-    "Hash": "1330716657",
+    "Hash": "2271349954",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
     "ShortName": "SoundBank",
     "Path": "SoundBank.bnk",
@@ -320,7 +320,15 @@
         "Id": "764892064",
         "Language": "SFX",
         "ShortName": "SFX_Fire_Level_01.wav",
-        "Path": "SFX\\SFX_Fire_Level_01_8BCBC46B.wem"
+        "Path": "SFX\\SFX_Fire_Level_01_AFC712F4.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3761904413",
+        "Name": "Play_SFX_Fire_Mystic_Low_Bed",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Fire\\Play_SFX_Fire_Mystic_Low_Bed",
+        "GUID": "{6CE3C20A-C518-4F87-BF39-29370E0719D0}"
        }
       ]
      },
@@ -335,7 +343,7 @@
         "Id": "66188714",
         "Language": "SFX",
         "ShortName": "SFX_Fire_Level_02.wav",
-        "Path": "SFX\\SFX_Fire_Level_02_D4391FD7.wem"
+        "Path": "SFX\\SFX_Fire_Level_02_FD08B07B.wem"
        }
       ]
      },
@@ -350,7 +358,7 @@
         "Id": "78937757",
         "Language": "SFX",
         "ShortName": "SFX_Fire_Level_03.wav",
-        "Path": "SFX\\SFX_Fire_Level_03_F9E884A7.wem"
+        "Path": "SFX\\SFX_Fire_Level_03_9476BF14.wem"
        }
       ]
      },
@@ -365,7 +373,7 @@
         "Id": "970967826",
         "Language": "SFX",
         "ShortName": "SFX_Fire_Level_04.wav",
-        "Path": "SFX\\SFX_Fire_Level_04_663A8A7C.wem"
+        "Path": "SFX\\SFX_Fire_Level_04_2C10368E.wem"
        }
       ]
      },
@@ -380,7 +388,7 @@
         "Id": "650784925",
         "Language": "SFX",
         "ShortName": "SFX_Fire_Mystic_Low_Bed.wav",
-        "Path": "SFX\\SFX_Fire_Mystic_Low_Bed_00172B53.wem"
+        "Path": "SFX\\SFX_Fire_Mystic_Low_Bed_F4D1EE99.wem"
        }
       ]
      },

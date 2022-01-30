@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1661994096" GUID="{4552C77B-6D3F-4281-B495-A0E595F54E28}" Language="SFX" Hash="1330716657">
+		<SoundBank Id="1661994096" GUID="{4552C77B-6D3F-4281-B495-A0E595F54E28}" Language="SFX" Hash="2271349954">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -179,15 +179,18 @@
 					<IncludedMemoryFiles>
 						<File Id="764892064" Language="SFX">
 							<ShortName>SFX_Fire_Level_01.wav</ShortName>
-							<Path>SFX\SFX_Fire_Level_01_8BCBC46B.wem</Path>
+							<Path>SFX\SFX_Fire_Level_01_AFC712F4.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3761904413" Name="Play_SFX_Fire_Mystic_Low_Bed" ObjectPath="\Events\Default Work Unit\SFX\Fire\Play_SFX_Fire_Mystic_Low_Bed" GUID="{6CE3C20A-C518-4F87-BF39-29370E0719D0}"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="3184990086" Name="Play_SFX_Fire_Level_02" ObjectPath="\Events\Default Work Unit\SFX\Fire\Play_SFX_Fire_Level_02" GUID="{8A447414-2C47-4E8B-955C-6EFC97F7C6ED}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="66188714" Language="SFX">
 							<ShortName>SFX_Fire_Level_02.wav</ShortName>
-							<Path>SFX\SFX_Fire_Level_02_D4391FD7.wem</Path>
+							<Path>SFX\SFX_Fire_Level_02_FD08B07B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -195,7 +198,7 @@
 					<IncludedMemoryFiles>
 						<File Id="78937757" Language="SFX">
 							<ShortName>SFX_Fire_Level_03.wav</ShortName>
-							<Path>SFX\SFX_Fire_Level_03_F9E884A7.wem</Path>
+							<Path>SFX\SFX_Fire_Level_03_9476BF14.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -203,7 +206,7 @@
 					<IncludedMemoryFiles>
 						<File Id="970967826" Language="SFX">
 							<ShortName>SFX_Fire_Level_04.wav</ShortName>
-							<Path>SFX\SFX_Fire_Level_04_663A8A7C.wem</Path>
+							<Path>SFX\SFX_Fire_Level_04_2C10368E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -211,7 +214,7 @@
 					<IncludedMemoryFiles>
 						<File Id="650784925" Language="SFX">
 							<ShortName>SFX_Fire_Mystic_Low_Bed.wav</ShortName>
-							<Path>SFX\SFX_Fire_Mystic_Low_Bed_00172B53.wem</Path>
+							<Path>SFX\SFX_Fire_Mystic_Low_Bed_F4D1EE99.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

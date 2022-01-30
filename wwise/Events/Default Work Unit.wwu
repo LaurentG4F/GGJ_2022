@@ -111,6 +111,7 @@
 										<Property Name="ActionType" Type="int16" Value="2"/>
 										<Property Name="FadeInCurve" Type="int16" Value="1"/>
 										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -151,6 +152,16 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SFX_Fire_Level_01" ID="{C0737F82-4C89-47DB-BA1A-63C4928D53A8}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{AA903221-0F44-4F8D-98AF-55B355F57664}" ShortID="809615432">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="41"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Play_SFX_Fire_Mystic_Low_Bed" ID="{6CE3C20A-C518-4F87-BF39-29370E0719D0}" WorkUnitID="{356B4560-6E84-4EAC-80C5-3CABF7BEF170}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
