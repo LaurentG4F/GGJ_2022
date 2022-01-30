@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -9,6 +10,8 @@ public class EventManager : MonoBehaviour
     public TextMeshProUGUI topText;
     public TextMeshProUGUI bottomText;
 
+    public float loadNextSceneDelayInSeconds = 1f;
+
     public void TakeWater(GameObject fireInteractionToActivate)
     {
         print("shloups");
@@ -17,11 +20,18 @@ public class EventManager : MonoBehaviour
         fireInteractionToActivate.SetActive(true);
     }
 
-    public void ExtinguishFire(string scenePath)
+    public IEnumerator LoadNextScene(string scenePath, float delay)
     {
+        yield return new WaitForSeconds(delay);
+
         SceneManager.LoadScene(scenePath);
     }
     
+    public void ExtinguishFire(string scenePath)
+    {
+        StartCoroutine(LoadNextScene(scenePath, loadNextSceneDelayInSeconds));
+    }
+
     // Start is called before the first frame update
     void Start()
     {
