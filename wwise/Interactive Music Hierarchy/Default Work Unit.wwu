@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{A721E178-709C-4D1E-8CD5-DD2BBD33771B}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Musique_Intro" ID="{487125D9-7143-4CF9-BBF7-9D3C05187277}" ShortID="57724050">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C2A77F83-2650-4D77-9EA5-CA5DA3F64E26}"/>
