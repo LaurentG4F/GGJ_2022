@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\barie\Desktop\GlobalGamJam_2022\wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1661994096" GUID="{4552C77B-6D3F-4281-B495-A0E595F54E28}" Language="SFX" Hash="2271349954">
+		<SoundBank Id="1661994096" GUID="{4552C77B-6D3F-4281-B495-A0E595F54E28}" Language="SFX" Hash="1634766751">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -247,6 +247,14 @@
 						<File Id="67177573" Language="SFX">
 							<ShortName>SFX_TocToc_Binaural_03.wav</ShortName>
 							<Path>SFX\SFX_TocToc_Binaural_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2424815957" Name="Play_SFX_TocToc_Stop" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_TocToc_Stop" GUID="{5B275FA0-49D1-4C65-A5E5-B1E1991A1ACC}" DurationType="OneShot" DurationMin="2.393812" DurationMax="2.393812">
+					<IncludedMemoryFiles>
+						<File Id="441708959" Language="SFX">
+							<ShortName>SFX_TocToc_Binaural_01.wav</ShortName>
+							<Path>SFX\SFX_TocToc_Binaural_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

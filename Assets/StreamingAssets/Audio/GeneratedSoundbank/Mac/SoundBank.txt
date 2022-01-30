@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	770128916	Play_Pause_All			\Default Work Unit\Play_Pause_All	
 	1305709588	Play_Musique_Intro			\Default Work Unit\Music\Play_Musique_Intro	
 	1915892769	Play_Event_Test			\Default Work Unit\Play_Event_Test	
+	2424815957	Play_SFX_TocToc_Stop			\Default Work Unit\SFX\Play_SFX_TocToc_Stop	
 	2633259259	Play_Resume_All			\Default Work Unit\Play_Resume_All	
 	2839405212	Stop_Ambiance			\Default Work Unit\Amb\Stop_Ambiance	
 	3174479978	Play_Ambiance			\Default Work Unit\Amb\Play_Ambiance	

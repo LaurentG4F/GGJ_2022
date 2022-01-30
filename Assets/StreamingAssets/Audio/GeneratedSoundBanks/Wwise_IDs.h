@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_TOCTOC_BINAURAL_01 = 137879735U;
         static const AkUniqueID PLAY_SFX_TOCTOC_BINAURAL_02 = 137879732U;
         static const AkUniqueID PLAY_SFX_TOCTOC_BINAURAL_03 = 137879733U;
+        static const AkUniqueID PLAY_SFX_TOCTOC_STOP = 2424815957U;
         static const AkUniqueID STOP_AMBIANCE = 2839405212U;
         static const AkUniqueID STOP_MUSIQUE_INTRO = 3526698682U;
     } // namespace EVENTS
