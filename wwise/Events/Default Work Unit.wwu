@@ -111,6 +111,7 @@
 										<Property Name="ActionType" Type="int16" Value="2"/>
 										<Property Name="FadeInCurve" Type="int16" Value="1"/>
 										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -151,6 +152,16 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SFX_Fire_Level_01" ID="{C0737F82-4C89-47DB-BA1A-63C4928D53A8}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{AA903221-0F44-4F8D-98AF-55B355F57664}" ShortID="809615432">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="41"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Play_SFX_Fire_Mystic_Low_Bed" ID="{6CE3C20A-C518-4F87-BF39-29370E0719D0}" WorkUnitID="{356B4560-6E84-4EAC-80C5-3CABF7BEF170}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -238,6 +249,53 @@
 						<Event Name="Play_SFX_TocToc_Binaural_01" ID="{4BDF5CCD-7F7F-47B9-AD8C-74284FACD7D9}">
 							<ChildrenList>
 								<Action Name="" ID="{2C2B85C1-0793-4AF9-B8FC-338ADD1FC37E}" ShortID="810685884">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_TocToc_Binaural_01" ID="{9EC5C779-8618-450B-9401-5F558CCBF3B1}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_TocToc_Stop" ID="{5B275FA0-49D1-4C65-A5E5-B1E1991A1ACC}">
+							<ChildrenList>
+								<Action Name="" ID="{A78A726A-1188-4672-B596-FD813008264E}" ShortID="1014247000">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb" ID="{48DAB543-753E-46D0-B4AF-36BA787BF96B}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9EEAC105-9A58-4765-987D-3D01DBC081EA}" ShortID="110064976">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire" ID="{4F6E7412-35CA-4B92-AEAF-B73D4322DA9A}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8E1A0662-0B8A-47F9-A1E6-4F8F61AECBF8}" ShortID="986599292">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Musique_Intro" ID="{487125D9-7143-4CF9-BBF7-9D3C05187277}" WorkUnitID="{A721E178-709C-4D1E-8CD5-DD2BBD33771B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B2CF26E8-A7EC-4ED5-9CFE-ABBBC8C345AE}" ShortID="876793286">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_TocToc_Binaural_01" ID="{9EC5C779-8618-450B-9401-5F558CCBF3B1}" WorkUnitID="{92C639E2-A16A-4EAE-918F-507EDC5D4DFF}"/>
