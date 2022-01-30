@@ -14,6 +14,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Music" ID="{AA5257FC-BD07-46AF-B410-9FE2EE8A5EC2}" ShortID="176795522">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Musique_Intro" ID="{735776C7-EA69-4428-ACF2-D2695375E258}">
+							<ChildrenList>
+								<Action Name="" ID="{319395AB-3919-417A-9AFE-37E560D12F92}" ShortID="476410600">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Musique_Intro" ID="{487125D9-7143-4CF9-BBF7-9D3C05187277}" WorkUnitID="{A721E178-709C-4D1E-8CD5-DD2BBD33771B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Musique_Intro" ID="{9F90A109-48B1-49C0-8E11-6FA33B43D1A6}">
+							<ChildrenList>
+								<Action Name="" ID="{94F2FCF5-9551-4292-86B7-D8C3A3788905}" ShortID="346689405">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Musique_Intro" ID="{487125D9-7143-4CF9-BBF7-9D3C05187277}" WorkUnitID="{A721E178-709C-4D1E-8CD5-DD2BBD33771B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

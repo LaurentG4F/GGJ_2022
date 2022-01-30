@@ -1462,3 +1462,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topText: {fileID: 1536591910}
   bottomText: {fileID: 1870078501}
+  loadNextSceneDelayInSeconds: 2
